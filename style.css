@@ -1,0 +1,623 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.container2 {
+    background-image: url("./Assets/Group\ 297.jpg");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 40px 0 40px;
+    height: 800px;
+}
+
+.getInTouch {
+    text-decoration: underline;
+}
+
+.container2 h1 {
+    color: white;
+    padding: 90px 0 0 90px;
+    font-size: 78px;
+    width: 100%;
+}
+
+.container3 {
+    padding: 80px 220px;
+}
+
+.container3 h1 {
+    font-size: 70px;
+    width: 650px;
+}
+
+.swt {
+    color: #EC2232;
+}
+
+.big-para {
+    width: 355px;
+    margin-left: 561px;
+    font-size: 18px;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+
+.number p {
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.number img {
+    height: 66px;
+    padding-left: 5rem;
+}
+
+.vr2 {
+    border-right: 1px solid;
+    padding-right: 80px;
+}
+
+#patners {
+    background-image: url("./Assets/Mask\ group\ \(3\).png");
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.sub-head-div {
+    padding: 5rem 0 0 29rem;
+}
+
+.patners-img {
+    display: flex;
+    justify-content: end;
+    padding-top: 5rem;
+}
+
+.patners-img p {
+    padding: 18px;
+}
+
+.sub-head h1 {
+    font-size: 46px;
+    width: 650px;
+}
+
+.patners-img img {
+    height: 412px;
+}
+
+.industry-over {
+    display: flex;
+    justify-content: center;
+    margin-top: 230px;
+}
+
+#id-img {
+    padding: 40px 73px 0 0;
+}
+
+#id-img img {
+    width: 439px;
+    margin-left: 283px;
+}
+
+.plus {
+    height: 25px;
+}
+
+#plus {
+    margin-left: 16rem;
+}
+
+.plus-para {
+    margin-left: 25px;
+    font-size: 14px;
+}
+
+.idu-img {
+    background: white;
+    position: relative;
+    bottom: 30px;
+
+}
+
+.industry-img {
+    background: white;
+    position: relative;
+    bottom: 58px;
+
+}
+
+.indus {
+    height: 165px;
+}
+
+#benchmark {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+}
+
+#vl {
+    border-left: 2px solid #EC2232;
+    height: 400px;
+}
+
+.benchmark {
+    width: 466px;
+}
+
+.benchmark img {
+    height: 50px;
+    margin: 10px;
+}
+
+.industry {
+    display: flex;
+    padding: 40px;
+}
+
+.industry p {
+    font-size: 14px;
+
+}
+
+.machine {
+    height: 600px;
+    width: 100%;
+    background-image: url(./Assets/gear.png);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.machine-detail {
+    color: white;
+    width: 450px;
+}
+
+.machine-detail h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+
+.logo {
+    height: 200px;
+}
+
+.mini {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mini img {
+    height: 40px;
+}
+
+.num {
+    font-size: 25px;
+
+}
+
+.logo-sec {
+    padding: 50px;
+}
+
+.logo-sec p {
+    color: #E82232;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logo-sec-img {
+    width: 750px;
+}
+
+.logo-sec div {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.CR {
+    height: 110px;
+    width: 110px;
+}
+
+#cr {
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 103px;
+}
+
+.get-in-touch {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form {
+    background-color: #0E3466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.form h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 65px;
+}
+
+.form hr {
+    margin: 15px 0;
+    width: 100px;
+}
+
+.input-icons {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field {
+    width: 450px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    margin-bottom: 15px;
+    padding-left: 41px;
+}
+
+input::placeholder {
+    padding-right: 10px;
+}
+
+.message {
+    width: 450px;
+    height: 120px;
+    border-radius: 7px;
+}
+
+.submit-btn {
+    width: 185px;
+    height: 51px;
+    margin-top: 20px;
+    background: #EC2232;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 40.2445px;
+}
+
+.map {
+    background: #F8F8F8;
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.map-img {
+    height: 611px;
+    width: 567px;
+}
+
+.map hr {
+    margin: 26px 0px;
+}
+
+.address {
+    width: 330px;
+    background-color: white;
+    height: auto;
+    padding: 29px;
+    position: absolute;
+    left: 660px;
+}
+
+.add-heading {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0.5rem 0;
+}
+
+.add-detail {
+    color: #828282;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.f-user,
+.f-email,
+.f-message,
+.f-phone {
+    position: absolute;
+    margin: 15px;
+}
+
+.input-icons img {
+    width: 20px;
+    height: 20px;
+}
+
+.img-ipt {
+    display: flex;
+}
+
+/* Footer */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style: none;
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+footer {
+    background-color: black;
+    padding: 30px 0;
+}
+
+.col {
+    padding: 0 15px;
+    color: white;
+    margin: 16px 20px 6px 52px;
+    cursor: pointer;
+}
+
+.col h4 {
+    font-size: 15px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: 500px;
+    position: relative;
+}
+
+.col-div {
+    display: flex;
+}
+
+.col-div div {
+    margin-right: 45px;
+}
+
+.col-div div li {
+    line-height: 1.5;
+}
+
+.industry-dtl {
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.social {
+    margin-top: 30px;
+    text-align: right;
+}
+
+#social-col p {
+    text-align: right;
+    line-height: 2;
+}
+
+.social>.fa-brands {
+    padding-right: 15px;
+}
+
+@media (max-width: 800px) {
+    .col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .col-div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #social-col p {
+        text-align: left;
+        line-height: 2;
+    }
+
+    .social {
+        text-align: left;
+    }
+}
+
+@media(max-width: 550px) {
+    .col {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width : 360px) and (max-width : 750px) {
+
+    .header{
+        font-size: 14px;
+    }
+    .get-in-touch {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .container3 {
+        padding: 20px;
+    }
+
+    .big-para {
+        margin: 0;
+        width: 300px;
+    }
+
+    .indus {
+        display: none;
+    }
+
+    .sub-head-div {
+        padding: 5rem 0 0 2rem;
+    }
+
+    .patners-img {
+        display: block;
+    }
+
+    .container2 {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 100%;
+        margin: 0;
+        height: 262px;
+    }
+
+    .container2 h1 {
+        font-size: 30px;
+    }
+
+    .container3 h1 {
+        width: auto;
+        font-size: 46px;
+        padding: 20px 0;
+    }
+
+    .number p {
+        font-size: 14px;
+    }
+
+    .number div {
+        padding: 0px 20px;
+    }
+
+    .sub-head h1 {
+        width: 300px;
+    }
+.form h1{
+    font-size: 45px;
+}
+    .patners-img img {
+        height: 159px;
+    }
+
+    .number img {
+        height: 33px;
+        padding-left: 0;
+    }
+
+    .industry-over {
+        display: flex;
+        justify-content: end;
+        padding-left: 20px;
+    }
+
+    #id-img img {
+        margin-left: 65px;
+    }
+
+    #id-img {
+        padding: 0;
+    }
+
+    .industry {
+        display: flex;
+        padding: 40px 0 0;
+    }
+
+    #plus {
+        margin-left: 9rem;
+    }
+
+    #benchmark {
+        display: block;
+
+    }
+
+    .benchmark {
+        padding: 10px;
+        width: 351px;
+    }
+
+    .machine {
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        margin: 0;
+        display: block;
+    }
+
+    .logo-sec img {
+        width: 254px;
+    }
+
+    .logo {
+        height: 165px;
+    }
+
+    .form {
+        padding: 29px 0;
+    }
+
+    .input-field,
+    .message {
+        width: 343px;
+    }
+
+    .map-img {
+        width: 360px;
+        height: 550px;
+    }
+
+    .map {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .address {
+        position: relative;
+        left: 0;
+    }
+
+    .small-img {
+        display: none;
+    }
+
+    .machine-detail {
+        width: 360px;
+    }
+    .number{
+        display: flex;
+
+    }
+}
