@@ -464,9 +464,10 @@ footer {
 
 @media screen and (min-width : 360px) and (max-width : 750px) {
 
-    .header{
+    .header {
         font-size: 14px;
     }
+
     .get-in-touch {
         display: grid;
         grid-template-columns: auto;
@@ -478,7 +479,7 @@ footer {
 
     .big-para {
         margin: 0;
-        width: 300px;
+        width: 297px;
     }
 
     .indus {
@@ -523,9 +524,11 @@ footer {
     .sub-head h1 {
         width: 300px;
     }
-.form h1{
-    font-size: 45px;
-}
+
+    .form h1 {
+        font-size: 45px;
+    }
+
     .patners-img img {
         height: 159px;
     }
@@ -616,7 +619,8 @@ footer {
     .machine-detail {
         width: 360px;
     }
-    .number{
+
+    .number {
         display: flex;
 
     }
